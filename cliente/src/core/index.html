@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Contract</title>
+    <link rel="stylesheet" href="https://bootswatch.com/5/lux/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<script src="@truffle/contract/browser-dist/truffle-contract.min.js"></script>
+<script src="scripts/app.js"></script>
+<body>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card card-body rounded-2 mb-4">
+                    <h1>Demo Aplicación Blockchain</h1>
+                    <span>Wallet</span>
+                    <span id="account"></span>
+                </div>
+                <form action="" class="card card-body rounded-2" id="taskForm">
+                    <h4>Make Trasaction</h4>
+                    <input type="text" placeholder="Write something" class="form-control rounded-2 border-0" name="title">
+                    <textarea rows="2" class="form-control rounded-2 border-0 my-4" placeholder="Escribe la información" name="description"></textarea>
+                    <button class="btn btn-primary rounded-2">Save</button>
+                </form>
+            </div>
+            <div class="col-md-8">
+                <div id="tasksList">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="scripts/load_transacction.js"></script>
+</html>

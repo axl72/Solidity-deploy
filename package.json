@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@truffle/contract": "^4.6.31",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "name": "myfirstcontract",
+  "version": "1.0.0",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./cliente/src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
